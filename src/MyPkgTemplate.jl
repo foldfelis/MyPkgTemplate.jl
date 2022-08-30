@@ -15,7 +15,7 @@ const T = Template(
             windows=true,
             x64=true,
             coverage=true,
-            extra_versions=["1.6", "1.7", "nightly"],
+            extra_versions=["1.6", "1.8"],
         ),
         Documenter{GitHubActions}(),
     ],
